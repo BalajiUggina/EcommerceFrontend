@@ -1,5 +1,36 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #DB4444;
+  --color-primary-hover: #c93b3b;
+  --color-bg-secondary: #F5F5F5;
+  --color-accent-light: #E07575;
+}
+
+@utility btn-primary {
+  @apply rounded font-medium text-white transition bg-primary hover:bg-primary-hover disabled:bg-gray-400 disabled:cursor-not-allowed cursor-pointer flex items-center justify-center;
+}
+
+@utility btn-secondary {
+  @apply text-black transition hover:text-primary cursor-pointer;
+}
+
+@utility input-auth {
+  @apply w-full border-b border-gray-300 pb-2 outline-none text-sm bg-transparent transition focus:border-primary;
+}
+
+@utility input-primary {
+  @apply w-full px-4 py-3 bg-bg-secondary rounded outline-none text-base placeholder:text-[#9CA3AF] transition focus:ring-1 focus:ring-primary;
+}
+
+@utility badge-discount {
+  @apply absolute left-3 top-3 z-10 rounded bg-primary px-3 py-1 text-xs text-white;
+}
+
+@utility icon-button-circle {
+  @apply rounded-full bg-white p-2 transition hover:bg-gray-100;
+}
+
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }

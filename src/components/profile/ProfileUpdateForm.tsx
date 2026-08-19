@@ -98,7 +98,7 @@ export default function ProfileUpdateForm() {
     >
       <h2
         className="
-        text-[#DB4444]
+        text-primary
         text-xl
         font-medium
         mb-8
@@ -241,10 +241,7 @@ export default function ProfileUpdateForm() {
         <div className="flex justify-end items-center gap-8">
           <button
             type="button"
-            className="
-            text-black
-            cursor-pointer
-            "
+            className="btn-secondary"
           >
             Cancel
           </button>
@@ -252,17 +249,7 @@ export default function ProfileUpdateForm() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className={`
-              h-14
-              px-12
-              rounded
-              transition
-              ${
-                isSubmitting
-                  ? "bg-gray-400 cursor-not-allowed"
-                  : "bg-[#DB4444] text-white cursor-pointer"
-              }
-            `}
+            className="btn-primary h-14 px-12"
           >
             Save Changes
           </button>

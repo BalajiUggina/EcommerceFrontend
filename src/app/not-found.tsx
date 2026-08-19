@@ -7,7 +7,7 @@ export default function NotFound() {
 
       <p className="mt-4 text-gray-500 text-[16px]">Your visited page not found. You may go home page.</p>
 
-      <Link href="/" className="mt-6 rounded bg-[#DB4444] font-medium px-4 py-2 text-white">
+      <Link href="/" className="btn-primary mt-6 px-4 py-2">
         Back to home page
       </Link>
     </div>

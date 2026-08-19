@@ -15,9 +15,9 @@ export default function SectionHeader({
         {/* Tag */}
 
         <div className="flex items-center gap-4">
-          <div className="h-10 w-5 rounded bg-[#DB4444]" />
+          <div className="h-10 w-5 rounded bg-primary" />
 
-          <span className="text-sm font-semibold text-[#DB4444]">{tag}</span>
+          <span className="text-sm font-semibold text-primary">{tag}</span>
         </div>
 
         {/* Title */}

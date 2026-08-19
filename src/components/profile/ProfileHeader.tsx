@@ -16,7 +16,7 @@ export default function ProfileHeader() {
 
       <p className="text-sm">
         Welcome!{" "}
-        <span className="text-[#DB4444]">
+        <span className="text-primary">
           {user?.full_name}
         </span>
       </p>

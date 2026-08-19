@@ -85,5 +85,5 @@ function TimeBlock({ label, value }: { label: string; value: string }) {
 }
 
 function Colon() {
-  return <span className="mt-3 text-3xl font-bold text-[#E07575]">:</span>;
+  return <span className="mt-3 text-3xl font-bold text-accent-light">:</span>;
 }
