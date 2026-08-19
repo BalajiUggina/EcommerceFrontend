@@ -63,15 +63,7 @@ export default function ContactForm() {
               {...register("name", {
                 required: "Name is required",
               })}
-              className="
-                w-full
-                h-[50px]
-                px-4
-                rounded
-                bg-[#F5F5F5]
-                outline-none
-                text-[14px]
-              "
+              className="input-primary h-[50px] text-[14px]"
             />
 
             {errors.name && (
@@ -94,15 +86,7 @@ export default function ContactForm() {
                     "Enter valid email",
                 },
               })}
-              className="
-                w-full
-                h-[50px]
-                px-4
-                rounded
-                bg-[#F5F5F5]
-                outline-none
-                text-[14px]
-              "
+              className="input-primary h-[50px] text-[14px]"
             />
 
             {errors.email && (
@@ -119,15 +103,7 @@ export default function ContactForm() {
               {...register("phone", {
                 required: "Phone is required",
               })}
-              className="
-                w-full
-                h-[50px]
-                px-4
-                rounded
-                bg-[#F5F5F5]
-                outline-none
-                text-[14px]
-              "
+              className="input-primary h-[50px] text-[14px]"
             />
 
             {errors.phone && (
@@ -147,16 +123,7 @@ export default function ContactForm() {
               required:
                 "Message is required",
             })}
-            className="
-              w-full
-              h-[207px]
-              p-4
-              rounded
-              bg-[#F5F5F5]
-              outline-none
-              resize-none
-              text-[14px]
-            "
+            className="input-primary h-[207px] p-4 resize-none text-[14px]"
           />
 
           {errors.message && (
@@ -172,17 +139,7 @@ export default function ContactForm() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className={`
-              h-[56px]
-              px-12
-              rounded-[4px]
-              transition
-              ${
-                isSubmitting
-                  ? "bg-gray-400 cursor-not-allowed"
-                  : "bg-[#DB4444] text-white cursor-pointer"
-              }
-            `}
+            className="btn-primary h-[56px] px-12"
           >
             Send Message
           </button>

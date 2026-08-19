@@ -27,15 +27,7 @@ export default function AuthInput<T extends FieldValues>({
         placeholder={placeholder}
         {...register(name,rules)}
         autoComplete={autocomplete}
-        className="
-          w-full
-          border-b
-          border-gray-300
-          pb-2
-          outline-none
-          text-sm
-          bg-transparent
-        "
+        className="input-auth"
       />
 
       {error && <p className="text-sm text-red-500">{error}</p>}

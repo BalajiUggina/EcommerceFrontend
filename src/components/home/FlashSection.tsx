@@ -41,14 +41,14 @@ export default function FlashSaleSection({ products }: FlashSaleSectionProps) {
         <div className="flex justify-end gap-2">
           <button
             onClick={scrollLeft}
-            className="rounded-full bg-[#F5F5F5] p-3"
+            className="rounded-full bg-bg-secondary p-3"
           >
             <ChevronLeft size={18} className="cursor-pointer" />
           </button>
 
           <button
             onClick={scrollRight}
-            className="rounded-full bg-[#F5F5F5] p-3"
+            className="rounded-full bg-bg-secondary p-3"
           >
             <ChevronRight size={18} className="cursor-pointer" />
           </button>
@@ -64,16 +64,7 @@ export default function FlashSaleSection({ products }: FlashSaleSectionProps) {
       <div className="mt-14 flex justify-center">
         <Link
           href="/products"
-          className="
-            rounded
-            bg-[#DB4444]
-            py-4 px-8
-            text-[16px]
-            font-medium
-            text-white
-            transition
-            hover:bg-[#c93b3b]
-          "
+          className="btn-primary py-4 px-8 text-[16px]"
         >
           View All Products
         </Link>

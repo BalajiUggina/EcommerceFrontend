@@ -207,7 +207,7 @@ export default function RegisterForm() {
           <div className="flex flex-col gap-4">
             <button
               type="submit"
-              className={`h-14 rounded font-medium ${isSubmitting ? "bg-gray-400 cursor-not-allowed" : "bg-[#DB4444] text-white cursor-pointer"}`}
+              className="btn-primary h-14"
               disabled={isSubmitting || !Object.keys(initialFormData).length}
             >
               Create Account

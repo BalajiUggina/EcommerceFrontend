@@ -47,15 +47,7 @@ export default function ProfileInput<
         placeholder={placeholder}
         autoComplete={autoComplete}
         {...register(name, rules)}
-        className="
-          h-[50px]
-          w-full
-          px-4
-          bg-[#F5F5F5]
-          rounded
-          outline-none
-          text-base
-          placeholder:text-[#9CA3AF]"
+        className="input-primary h-[50px]"
       />
 
       {error && (

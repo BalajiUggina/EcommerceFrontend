@@ -11,7 +11,7 @@ export default function Contact() {
           {/* Call To Us */}
           <div>
             <div className="flex items-center gap-4 mb-6">
-              <div className="w-10 h-10 rounded-full bg-[#DB4444] flex items-center justify-center">
+              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
                 <img src="/icons/phone.svg" alt="Phone" className="w-5 h-5" />
               </div>
 
@@ -35,7 +35,7 @@ export default function Contact() {
           {/* Write To Us */}
           <div>
             <div className="flex items-center gap-4 mb-6">
-              <div className="w-10 h-10 rounded-full bg-[#DB4444] flex items-center justify-center">
+              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
                 <img src="/icons/mail.svg" alt="Mail" className="w-5 h-5" />
               </div>
 

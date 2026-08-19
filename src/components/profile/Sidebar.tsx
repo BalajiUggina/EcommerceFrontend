@@ -9,7 +9,7 @@ export default function AccountSidebar() {
         </h3>
 
         <ul className="space-y-2 ml-5">
-          <li className="text-[#DB4444]">
+          <li className="text-primary">
             My Profile
           </li>
 

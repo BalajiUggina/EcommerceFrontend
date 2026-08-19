@@ -170,7 +170,7 @@ export default function LoginForm() {
           <div className="flex justify-between gap-4 items-center">
             <button
               type="submit"
-              className={`h-14 w-40 rounded font-medium ${isSubmitting ? "bg-gray-400 cursor-not-allowed" : "bg-[#DB4444] text-white cursor-pointer"}`}
+              className="btn-primary h-14 w-40"
               disabled={isSubmitting || !Object.keys(initialFormData).length}
             >
               Login
@@ -185,7 +185,7 @@ export default function LoginForm() {
             >
               <Link
                 href="/forgot-password"
-                className="underline text-[#DB4444]"
+                className="underline text-primary"
               >
                 Forgot password?
               </Link>
